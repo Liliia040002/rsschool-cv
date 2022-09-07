@@ -15,3 +15,12 @@ lvishchenko23@gmail.com
 *****
 I am a "switcher". I worked for 6 years at V.N. Karazin Kharkiv University as an associate professor. My main responsibilities were: teaching subjects in oil and gas fields, writing scientific articles, participating in scientific conferences. Now I have completely changed the scope of my activity - I have experience working with 2D design and am actively studying Frontend developer.
 *****
+
+
+## ![Skills](skills.png "Icon") Skills ##
+
+HTML        CSS     Figma
+VS Code     JS      Atom
+Git         Photoshop       Tilda
+
+
