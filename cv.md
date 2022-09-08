@@ -57,13 +57,14 @@ Git         Photoshop       Tilda
 
 ## ![Language](language.png "Icon") LANGUAGES ##
 
-language    |   level
-------------|-:--------:-
-Ukrainian   |   Native
-Russian     |   Native
-English     |     A2
-Deutsch     |     A1
-French      |     A1
+
+|   |   |
+| ------------ | ------------ |
+|  Ukrainian|  Native |
+|  Russian |  Native |
+|  English |  A2 |
+| Deutsch  |  A2 |
+|  French |  A1 |
 
 
 ## ![Interests](interests.png "Icon") INTERESTS ##
