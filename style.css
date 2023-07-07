@@ -1,3 +1,358 @@
 * {
-  color: red;
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+body {
+  background-color: #E1F5F6;
+}
+
+
+header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.header_wraper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  width: 122px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+nav ul li:hover {
+  background-color: #8ac7ca;
+  border: none;
+
+  box-shadow: 1px 1px 10px #8ac7ca;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+.about_wraper {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+h1 {
+  font-family: 'Imbue', serif;
+  font-weight: 800;
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.occupation h2 {
+  margin-top: 0;
+}
+
+.desc {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.education-and-work{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.education-and-work_wraper {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-wraper {
+  padding: 10px;
+  background-color: white;
+
+  box-shadow: 1px 1px 10px #8ac7ca;
+}
+
+.content-wraper li {
+  list-style-type: none;
+  display: flex;
+
+  background-color: white;
+}
+
+.year {
+  width: 234px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+
+  background-color: white;
+}
+
+.title-cont {
+  width: 300px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+
+  background-color: white;
+}
+
+.description-content {
+  width: 300px;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+
+  background-color: white;
+}
+.skills {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.skills_wraper {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.content {
+  display: flex;
+}
+
+
+.content ol {
+  margin-top: 0;
+  padding: 0;
+  width: 659px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.content ol li {
+  margin-top: 10px;
+}
+
+.task-solution {
+  margin-top: 20px;
+  display: flex;
+
+  padding: 10px;
+  background-color: white;
+
+  box-shadow: 1px 1px 10px #8ac7ca;
+}
+
+.language {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.language_wraper {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.language_content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.language_ukr {
+  width: 200px;
+  height: 200px;
+  background-image: url(ukr.png);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.language_eng {
+  width: 200px;
+  height: 200px;
+  background-image: url(eng.png);
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.language_rus {
+  width: 200px;
+  height: 200px;
+  background-image: url(rus.png);
+  text-align: center; 
+  margin-bottom: 20px;
+
+}
+
+.language_fr {
+  width: 200px;
+  height: 200px;
+  background-image: url(fr.png);
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+
+.level {
+  font-size: 36px;
+  font-weight: 300; 
+  text-align: center;
+  background-color: none;
+  transform: translateY(60px) translateX(5px); 
+}
+
+.meaning {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+
+  transform: translateY(60px) translateX(5px);
+}
+.hobbies {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.hobbies_wraper {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; 
+}
+
+.hobbies-item {
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+
+.hobbies-item div {
+  display: flex;
+  justify-content: center;
+  height: 209px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.photography {
+  background-image: url(photography.png);
+  width: 274px;
+  
+}
+
+.architecture {
+  background-image: url(architecture.png);
+  width: 274px;
+}
+
+.training {
+  background-image: url(training.png); 
+  width: 274px;
+}
+
+.history {
+  background-image: url(history.png);
+  width: 274px; 
+  
+}
+
+.download_wraper {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.download {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.download_wraper div {
+  width: 530px;
+  height: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #216596;
+  text-align: center;
+  
+}
+
+.download_wraper div a {
+  margin: 0 auto;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.footer_wraper {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+.footer_link {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 20px;
+  font-weight: 300;
+
+}
+
+.footer_date {
+  margin-top: 20px;
+
+  font-size: 16px;
+  font-weight: 300;
 }
